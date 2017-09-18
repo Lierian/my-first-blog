@@ -87,6 +87,7 @@ WSGI_APPLICATION = 'medbase.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -97,6 +98,19 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+'''
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'med',
+        'USER': 'Lierian',
+        'PASSWORD':'Lierian',
+        'HOST': 'Lierian.mysql.pythonanywhere-services.com',
+    }
+}
+
 
 
 # Password validation
