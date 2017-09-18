@@ -114,7 +114,7 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['46.63.211.57', 'localhost', '127.0.0.1']
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
