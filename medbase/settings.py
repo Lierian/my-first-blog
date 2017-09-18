@@ -104,9 +104,9 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'med',
+        'NAME': 'Lierian$med',
         'USER': 'Lierian',
-        'PASSWORD':'gfkfynbh10',
+        'PASSWORD': 'gfkfynbh10',
         'HOST': 'Lierian.mysql.pythonanywhere-services.com',
     }
 }
